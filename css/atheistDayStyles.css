@@ -1,0 +1,64 @@
+body {
+  background-color: #1C4648;
+}
+
+.containerA{
+  padding-top: 10px;
+}
+
+.containerA ul{
+  background-color: #3d6d6f;
+  border-radius: 5px 5px 0px 0px;
+  border: 1px solid #1C4648;
+  margin-right: 21%;
+  max-width: 100%
+}
+
+
+.container li a{
+  color: #e7eac5;
+}
+
+.container li a:hover {
+  color: black;
+  background-color: #e7eac5;
+}
+
+.containerB{
+  background-color: #e7eac5;
+  /*border: 2px solid darkgrey;*/
+  border-radius: 10px;
+}
+
+#atheistDayImage{
+  max-width: 100%;
+  width: 78%;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 15px 12px 15px #5d5e5e;
+}
+
+#atheistDayInfo{
+  color: #e7eac5;
+  font-family: monospace;
+  background-color: #1C4648;
+  display: block;
+  padding-top: .5%;
+  padding-bottom: 2%
+}
+
+#atheistDayInfo h3{
+  text-align: center;
+}
+
+.imageContainer{
+  padding: 2% 0% 3% 0%;
+}
+
+@media screen and (max-width: 500px){
+  #atheistDayInfo h3{
+    font-size: 85%;
+  }
+}
